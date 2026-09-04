@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Riunioni",
+        "calls": "Chiamate",
+        "tasks": "Compiti"
+    },
+    "labels": {
+        "Create CCliente": "Crea Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

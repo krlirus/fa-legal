@@ -1,0 +1,26 @@
+{
+    "scopeNames": {
+        "CAsunto": "Asunto",
+        "CCliente": "Cliente",
+        "CExpediente": "Expediente",
+        "CActuacion": "Actuación",
+        "CVencimiento": "Vencimiento",
+        "CAudiencia": "Audiencia",
+        "CHonorario": "Honorario"
+    },
+    "scopeNamesPlural": {
+        "CAsunto": "Asuntos",
+        "CCliente": "Clientes",
+        "CExpediente": "Expedientes",
+        "CActuacion": "Actuaciones",
+        "CVencimiento": "Vencimientos",
+        "CAudiencia": "Audiencias",
+        "CHonorario": "Honorarios"
+    },
+    "labels": {
+        "Schedule CVencimiento": "Schedule Vencimiento",
+        "Log CVencimiento": "Log Vencimiento",
+        "Schedule CAudiencia": "Schedule Audiencia",
+        "Log CAudiencia": "Log Audiencia"
+    }
+}

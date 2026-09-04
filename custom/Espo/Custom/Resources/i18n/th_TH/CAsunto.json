@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "การประชุม",
+        "calls": "โทร",
+        "tasks": "งาน"
+    },
+    "labels": {
+        "Create CAsunto": "สร้าง Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

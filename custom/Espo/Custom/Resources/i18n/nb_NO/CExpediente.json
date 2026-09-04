@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Møter",
+        "calls": "Samtaler",
+        "tasks": "Oppgaver"
+    },
+    "labels": {
+        "Create CExpediente": "Opprett Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

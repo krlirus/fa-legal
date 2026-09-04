@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CHonorario": "Crear Honorario"
+    },
+    "fields": {
+        "description": "Observaciones"
+    }
+}

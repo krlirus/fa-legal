@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Tikšanās",
+        "calls": "Zvani",
+        "tasks": "Uzdevumi"
+    },
+    "labels": {
+        "Create CExpediente": "Izveidot Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

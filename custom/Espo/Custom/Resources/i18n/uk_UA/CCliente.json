@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Зустрічі",
+        "calls": "Дзвінки",
+        "tasks": "Завдання"
+    },
+    "labels": {
+        "Create CCliente": "Створити Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

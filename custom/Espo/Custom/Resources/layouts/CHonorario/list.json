@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "client"
+    },
+    {
+        "name": "matter"
+    },
+    {
+        "name": "agreementType"
+    },
+    {
+        "name": "currencyCode"
+    },
+    {
+        "name": "amount"
+    },
+    {
+        "name": "feeStatus"
+    },
+    {
+        "name": "dueDate"
+    }
+]

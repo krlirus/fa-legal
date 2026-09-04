@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "การประชุม",
+        "calls": "โทร",
+        "tasks": "งาน"
+    },
+    "labels": {
+        "Create CCliente": "สร้าง Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

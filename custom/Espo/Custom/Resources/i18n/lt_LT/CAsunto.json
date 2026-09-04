@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Susitikimai",
+        "calls": "Skambučiai",
+        "tasks": "Užduotys"
+    },
+    "labels": {
+        "Create CAsunto": "Sukurti Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

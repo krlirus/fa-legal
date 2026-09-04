@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "ملاقاتیں",
+        "calls": "کالز",
+        "tasks": "کام"
+    },
+    "labels": {
+        "Create CExpediente": "{entityTypetranslated} بنائیں"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

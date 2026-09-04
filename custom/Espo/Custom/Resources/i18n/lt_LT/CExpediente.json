@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Susitikimai",
+        "calls": "Skambučiai",
+        "tasks": "Užduotys"
+    },
+    "labels": {
+        "Create CExpediente": "Sukurti Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

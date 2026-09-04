@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Συναντήσεις",
+        "calls": "Κλήσεις",
+        "tasks": "Εργασίες"
+    },
+    "labels": {
+        "Create CAsunto": "Δημιουργία Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

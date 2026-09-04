@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "parent": "Forelder",
+        "dateStart": "Startdato",
+        "dateEnd": "Sluttdato",
+        "duration": "Varighet",
+        "reminders": "Påminnelser",
+        "dateStartDate": "Startdato (hele dagen)",
+        "dateEndDate": "Sluttdato (hele dagen)",
+        "isAllDay": "Er heldags",
+        "description": "Observaciones"
+    },
+    "links": {
+        "parent": "Forelder"
+    },
+    "options": {
+        "status": {
+            "Planned": "Planlagt",
+            "Held": "Gjennomført",
+            "Not Held": "Ikke gjennomført"
+        }
+    },
+    "labels": {
+        "Create CAudiencia": "Opprett Audiencia",
+        "Schedule CAudiencia": "Planlegg Audiencia",
+        "Log CAudiencia": "Logg Audiencia",
+        "Set Held": "Merk som gjennomført",
+        "Set Not Held": "Merk som ikke gjennomført"
+    },
+    "massActions": {
+        "setHeld": "Merk som gjennomført",
+        "setNotHeld": "Merk som ikke gjennomført"
+    },
+    "presetFilters": {
+        "planned": "Planlagt",
+        "held": "Gjennomført",
+        "todays": "Dagens"
+    }
+}

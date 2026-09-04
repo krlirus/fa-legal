@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Möten",
+        "calls": "Samtal",
+        "tasks": "Uppgifter"
+    },
+    "labels": {
+        "Create CCliente": "Skapa Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

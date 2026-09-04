@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "találkozók",
+        "calls": "felhívja",
+        "tasks": "Feladatok"
+    },
+    "labels": {
+        "Create CExpediente": "{EntityTypeTranslated} létrehozása"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

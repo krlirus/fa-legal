@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "الاجتماعات",
+        "calls": "المكالمات",
+        "tasks": "مهام"
+    },
+    "labels": {
+        "Create CCliente": "إنشاء {الكيانTypeTranslated}"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

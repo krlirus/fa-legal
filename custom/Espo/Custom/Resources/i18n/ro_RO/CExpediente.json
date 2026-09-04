@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CExpediente": "Creare Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

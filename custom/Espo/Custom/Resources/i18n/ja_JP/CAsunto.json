@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "会議",
+        "calls": "通話",
+        "tasks": "タスク"
+    },
+    "labels": {
+        "Create CAsunto": "Asunto を作成する"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

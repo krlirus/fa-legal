@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "parent": "الأبوين",
+        "dateStart": "تاريخ البدء",
+        "dateEnd": "تاريخ الانتهاء",
+        "duration": "مدة",
+        "status": "حالة",
+        "reminders": "تذكير",
+        "dateStartDate": "تاريخ البدء (طوال اليوم)",
+        "dateEndDate": "تاريخ الانتهاء (طوال اليوم)",
+        "isAllDay": "طوال اليوم",
+        "description": "Observaciones"
+    },
+    "links": {
+        "parent": "الأبوين"
+    },
+    "options": {
+        "status": {
+            "Planned": "مخطط",
+            "Held": "محتجز",
+            "Not Held": "لم يعقد"
+        }
+    },
+    "labels": {
+        "Create CVencimiento": "إنشاء {الكيانTypeTranslated}",
+        "Schedule CVencimiento": "جدولة {الكيانTypeTranslated}",
+        "Log CVencimiento": "سجل {الكيانTypeTranslated}",
+        "Set Held": "مجموعة معلقة",
+        "Set Not Held": "التعيين لم يتم عقده"
+    },
+    "massActions": {
+        "setHeld": "مجموعة معلقة",
+        "setNotHeld": "التعيين لم يتم عقده"
+    },
+    "presetFilters": {
+        "planned": "مخطط",
+        "held": "محتجز",
+        "todays": "اليوم"
+    }
+}

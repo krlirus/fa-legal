@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "Criar Actuación"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

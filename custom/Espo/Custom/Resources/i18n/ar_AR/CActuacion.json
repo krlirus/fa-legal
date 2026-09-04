@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "إنشاء {الكيانTypeTranslated}"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

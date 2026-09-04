@@ -1,0 +1,34 @@
+{
+    "fields": {
+        "internalCode": "Código interno",
+        "practiceArea": "Área de práctica",
+        "matterStatus": "Estado",
+        "priority": "Prioridad",
+        "openingDate": "Fecha de apertura",
+        "strategy": "Estrategia",
+        "nextAction": "Próxima acción",
+        "nextActionDate": "Fecha próxima acción",
+        "counterparty": "Contraparte",
+        "feeStatus": "Estado de honorarios",
+        "driveFolderUrl": "Carpeta de Google Drive",
+        "client": "Cliente",
+        "dockets": "Expedientes",
+        "deadlines": "Vencimientos",
+        "hearings": "Audiencias",
+        "fees": "Honorarios",
+        "description": "Notas internas"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "client": "Cliente",
+        "dockets": "Expedientes",
+        "deadlines": "Vencimientos",
+        "hearings": "Audiencias",
+        "fees": "Honorarios"
+    },
+    "labels": {
+        "Create CAsunto": "Create Asunto"
+    }
+}

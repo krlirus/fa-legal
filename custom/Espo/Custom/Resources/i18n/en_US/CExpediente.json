@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "docketNumber": "Número de expediente",
+        "jurisdiction": "Jurisdicción",
+        "province": "Provincia",
+        "courtArea": "Fuero",
+        "court": "Juzgado / Tribunal",
+        "clerkOffice": "Secretaría",
+        "prosecutorOffice": "Fiscalía",
+        "instance": "Instancia",
+        "proceedingType": "Tipo de proceso",
+        "startDate": "Fecha de inicio",
+        "proceduralStatus": "Estado procesal",
+        "plaintiff": "Actor / Requirente",
+        "defendant": "Demandado / Requerido",
+        "accused": "Imputado",
+        "complainant": "Querellante / Denunciante",
+        "courtUrl": "URL de consulta judicial",
+        "lastDocketDate": "Fecha última actuación",
+        "nextDocketAction": "Próxima actuación",
+        "nextDocketDate": "Fecha próxima actuación",
+        "matter": "Asunto",
+        "docketActions": "Actuaciones",
+        "deadlines": "Vencimientos",
+        "hearings": "Audiencias",
+        "description": "Observaciones del expediente"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "matter": "Asunto",
+        "docketActions": "Actuaciones",
+        "deadlines": "Vencimientos",
+        "hearings": "Audiencias"
+    },
+    "labels": {
+        "Create CExpediente": "Create Expediente"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "جلسات",
+        "calls": "تماس ها",
+        "tasks": "وظایف"
+    },
+    "labels": {
+        "Create CCliente": "ایجاد Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

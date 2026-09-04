@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Srečanja",
+        "calls": "Klici",
+        "tasks": "Naloge"
+    },
+    "labels": {
+        "Create CAsunto": "Ustvari Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

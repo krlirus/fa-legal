@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "Opprett Actuación"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

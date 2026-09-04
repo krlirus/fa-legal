@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "การประชุม",
+        "calls": "โทร",
+        "tasks": "งาน"
+    },
+    "labels": {
+        "Create CExpediente": "สร้าง Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "Actuación を作成する"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

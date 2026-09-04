@@ -1,0 +1,12 @@
+{
+    "links": {
+        "calls": "Anrufe",
+        "tasks": "Aufgaben"
+    },
+    "labels": {
+        "Create CCliente": "Cliente erstellen"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

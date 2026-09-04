@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "الاجتماعات",
+        "calls": "المكالمات",
+        "tasks": "مهام"
+    },
+    "labels": {
+        "Create CAsunto": "إنشاء {الكيانTypeTranslated}"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

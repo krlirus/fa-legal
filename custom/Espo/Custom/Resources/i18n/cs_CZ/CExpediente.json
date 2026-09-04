@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Schůzky",
+        "calls": "Hovory",
+        "tasks": "Úkoly"
+    },
+    "labels": {
+        "Create CExpediente": "Vytvořit Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

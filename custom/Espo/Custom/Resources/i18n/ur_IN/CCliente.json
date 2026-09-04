@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "ملاقاتیں",
+        "calls": "کالز",
+        "tasks": "کام"
+    },
+    "labels": {
+        "Create CCliente": "{entityTypetranslated} بنائیں"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

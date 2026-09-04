@@ -1,0 +1,15 @@
+[
+    {
+        "name": "actionDate"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "docket"
+    },
+    {
+        "name": "actionType"
+    }
+]

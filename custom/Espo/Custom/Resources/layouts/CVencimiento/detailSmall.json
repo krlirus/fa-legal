@@ -1,0 +1,52 @@
+[
+    {
+        "label": "Vencimiento",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "deadlineType"
+                }
+            ],
+            [
+                {
+                    "name": "matter"
+                },
+                {
+                    "name": "docket"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateEnd"
+                }
+            ],
+            [
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "reminders"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

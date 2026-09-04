@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "parent": "Genitore",
+        "dateStart": "Data Inizio",
+        "dateEnd": "Data Fine",
+        "duration": "Durata",
+        "status": "Stato",
+        "reminders": "Promemoria",
+        "dateStartDate": "Data Inizio (tutto il giorno)",
+        "dateEndDate": "Data Fine (tutto il giorno)",
+        "isAllDay": "È tutto il giorno",
+        "description": "Observaciones"
+    },
+    "links": {
+        "parent": "Genitore"
+    },
+    "options": {
+        "status": {
+            "Planned": "Pianificato",
+            "Held": "Effettuata",
+            "Not Held": "Non Effettuata"
+        }
+    },
+    "labels": {
+        "Create CAudiencia": "Crea Audiencia",
+        "Schedule CAudiencia": "Pianifica Audiencia",
+        "Log CAudiencia": "Registra Audiencia",
+        "Set Held": "Effettuata",
+        "Set Not Held": "Non Effettuata"
+    },
+    "massActions": {
+        "setHeld": "Effettuata",
+        "setNotHeld": "Non Effettuata"
+    },
+    "presetFilters": {
+        "planned": "Pianificato",
+        "held": "Effettuata",
+        "todays": "Di Oggi"
+    }
+}

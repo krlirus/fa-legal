@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "actionDate": "Fecha y hora",
+        "actionType": "Tipo de actuación",
+        "nextAction": "Próxima acción",
+        "nextActionDate": "Fecha próxima acción",
+        "generatedDeadline": "Vencimiento generado",
+        "docket": "Expediente",
+        "description": "Detalle / Observaciones"
+    },
+    "links": {
+        "docket": "Expediente"
+    },
+    "labels": {
+        "Create CActuacion": "Create Actuación"
+    }
+}

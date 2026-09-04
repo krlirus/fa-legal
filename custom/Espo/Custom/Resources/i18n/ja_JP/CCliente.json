@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "会議",
+        "calls": "通話",
+        "tasks": "タスク"
+    },
+    "labels": {
+        "Create CCliente": "Cliente を作成する"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CHonorario": "{entityTypetranslated} بنائیں"
+    },
+    "fields": {
+        "description": "Observaciones"
+    }
+}

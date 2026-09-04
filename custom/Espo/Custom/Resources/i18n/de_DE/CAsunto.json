@@ -1,0 +1,12 @@
+{
+    "links": {
+        "calls": "Anrufe",
+        "tasks": "Aufgaben"
+    },
+    "labels": {
+        "Create CAsunto": "Asunto erstellen"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

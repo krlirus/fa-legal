@@ -1,0 +1,80 @@
+[
+    {
+        "label": "Audiencia",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "hearingType"
+                }
+            ],
+            [
+                {
+                    "name": "matter"
+                },
+                {
+                    "name": "docket"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateEnd"
+                }
+            ],
+            [
+                {
+                    "name": "modality"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "court"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "addressText",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "meetingUrl",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "participants",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "documentsRequired",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "會議",
+        "calls": "通話",
+        "tasks": "任務"
+    },
+    "labels": {
+        "Create CAsunto": "建立Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

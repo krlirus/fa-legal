@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CExpediente": "Buat Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

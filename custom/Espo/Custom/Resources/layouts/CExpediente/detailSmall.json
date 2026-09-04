@@ -1,0 +1,111 @@
+[
+    {
+        "label": "Identificación judicial",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "docketNumber"
+                }
+            ],
+            [
+                {
+                    "name": "matter"
+                },
+                {
+                    "name": "proceduralStatus"
+                }
+            ],
+            [
+                {
+                    "name": "jurisdiction"
+                },
+                {
+                    "name": "province"
+                }
+            ],
+            [
+                {
+                    "name": "courtArea"
+                },
+                {
+                    "name": "instance"
+                }
+            ],
+            [
+                {
+                    "name": "court"
+                },
+                {
+                    "name": "clerkOffice"
+                }
+            ],
+            [
+                {
+                    "name": "prosecutorOffice"
+                },
+                {
+                    "name": "proceedingType"
+                }
+            ],
+            [
+                {
+                    "name": "startDate"
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "label": "Partes y seguimiento",
+        "rows": [
+            [
+                {
+                    "name": "plaintiff"
+                },
+                {
+                    "name": "defendant"
+                }
+            ],
+            [
+                {
+                    "name": "accused"
+                },
+                {
+                    "name": "complainant"
+                }
+            ],
+            [
+                {
+                    "name": "lastDocketDate"
+                },
+                {
+                    "name": "nextDocketDate"
+                }
+            ],
+            [
+                {
+                    "name": "nextDocketAction",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "courtUrl",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "dateStart"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "deadlineType"
+    },
+    {
+        "name": "matter"
+    }
+]

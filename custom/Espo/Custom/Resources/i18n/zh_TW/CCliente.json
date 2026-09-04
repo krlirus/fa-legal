@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "會議",
+        "calls": "通話",
+        "tasks": "任務"
+    },
+    "labels": {
+        "Create CCliente": "建立Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

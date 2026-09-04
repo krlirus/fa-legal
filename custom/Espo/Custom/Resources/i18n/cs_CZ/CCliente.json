@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Schůzky",
+        "calls": "Hovory",
+        "tasks": "Úkoly"
+    },
+    "labels": {
+        "Create CCliente": "Vytvořit Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

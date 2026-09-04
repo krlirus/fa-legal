@@ -1,0 +1,28 @@
+{
+    "fields": {
+        "parent": "Szülő",
+        "dateStart": "Dátum kezdete",
+        "dateEnd": "Dátum vége",
+        "duration": "tartam",
+        "status": "Állapot",
+        "reminders": "Emlékeztetők",
+        "description": "Observaciones"
+    },
+    "links": {
+        "parent": "Szülő"
+    },
+    "options": {
+        "status": {
+            "Planned": "Tervezett",
+            "Not Held": "Nem tartott"
+        }
+    },
+    "labels": {
+        "Create CVencimiento": "{EntityTypeTranslated} létrehozása",
+        "Schedule CVencimiento": "{EntityTypeTranslated} ütemezése"
+    },
+    "presetFilters": {
+        "planned": "Tervezett",
+        "todays": "A mai"
+    }
+}

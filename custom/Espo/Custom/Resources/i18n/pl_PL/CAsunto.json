@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Spotkania",
+        "calls": "Połączenia",
+        "tasks": "Zadania"
+    },
+    "labels": {
+        "Create CAsunto": "Utwórz Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

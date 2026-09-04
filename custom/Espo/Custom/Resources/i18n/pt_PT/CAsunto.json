@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Reuniões",
+        "calls": "Chamadas",
+        "tasks": "Tarefas"
+    },
+    "labels": {
+        "Create CAsunto": "Criar Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

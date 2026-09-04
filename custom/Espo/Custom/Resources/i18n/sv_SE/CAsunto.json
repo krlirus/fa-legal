@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Möten",
+        "calls": "Samtal",
+        "tasks": "Uppgifter"
+    },
+    "labels": {
+        "Create CAsunto": "Skapa Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

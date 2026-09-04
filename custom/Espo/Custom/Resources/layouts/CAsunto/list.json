@@ -1,0 +1,24 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "internalCode"
+    },
+    {
+        "name": "client"
+    },
+    {
+        "name": "practiceArea"
+    },
+    {
+        "name": "matterStatus"
+    },
+    {
+        "name": "nextActionDate"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

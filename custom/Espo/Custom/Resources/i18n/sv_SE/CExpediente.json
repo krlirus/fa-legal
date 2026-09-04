@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Möten",
+        "calls": "Samtal",
+        "tasks": "Uppgifter"
+    },
+    "labels": {
+        "Create CExpediente": "Skapa Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

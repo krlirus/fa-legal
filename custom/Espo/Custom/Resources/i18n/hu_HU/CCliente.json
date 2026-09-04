@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "találkozók",
+        "calls": "felhívja",
+        "tasks": "Feladatok"
+    },
+    "labels": {
+        "Create CCliente": "{EntityTypeTranslated} létrehozása"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

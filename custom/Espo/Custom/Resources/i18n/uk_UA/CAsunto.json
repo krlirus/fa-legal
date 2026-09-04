@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Зустрічі",
+        "calls": "Дзвінки",
+        "tasks": "Завдання"
+    },
+    "labels": {
+        "Create CAsunto": "Створити Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

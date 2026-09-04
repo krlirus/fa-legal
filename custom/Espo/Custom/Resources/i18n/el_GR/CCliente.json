@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Συναντήσεις",
+        "calls": "Κλήσεις",
+        "tasks": "Εργασίες"
+    },
+    "labels": {
+        "Create CCliente": "Δημιουργία Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

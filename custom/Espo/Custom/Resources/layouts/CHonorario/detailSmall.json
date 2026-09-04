@@ -1,0 +1,60 @@
+[
+    {
+        "label": "Honorarios",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "agreementType"
+                }
+            ],
+            [
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "matter"
+                }
+            ],
+            [
+                {
+                    "name": "currencyCode"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "percentage"
+                },
+                {
+                    "name": "umaAmount"
+                }
+            ],
+            [
+                {
+                    "name": "feeStatus"
+                },
+                {
+                    "name": "agreementDate"
+                }
+            ],
+            [
+                {
+                    "name": "dueDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

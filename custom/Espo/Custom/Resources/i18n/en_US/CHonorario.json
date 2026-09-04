@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "agreementType": "Tipo de acuerdo",
+        "currencyCode": "Moneda / Unidad",
+        "amount": "Monto",
+        "percentage": "Porcentaje",
+        "umaAmount": "Cantidad de UMA",
+        "feeStatus": "Estado",
+        "agreementDate": "Fecha de acuerdo",
+        "dueDate": "Fecha de vencimiento",
+        "matter": "Asunto",
+        "client": "Cliente",
+        "description": "Observaciones"
+    },
+    "links": {
+        "matter": "Asunto",
+        "client": "Cliente"
+    },
+    "labels": {
+        "Create CHonorario": "Create Honorario"
+    }
+}

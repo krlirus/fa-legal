@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Srečanja",
+        "calls": "Klici",
+        "tasks": "Naloge"
+    },
+    "labels": {
+        "Create CExpediente": "Ustvari Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

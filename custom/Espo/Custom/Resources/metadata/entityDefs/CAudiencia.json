@@ -1,0 +1,267 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters"
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Planned",
+                "Held",
+                "Not Held"
+            ],
+            "default": "Planned",
+            "style": {
+                "Held": "success",
+                "Not Held": "info"
+            },
+            "displayAsLabel": true,
+            "labelType": "state",
+            "audited": true
+        },
+        "dateStart": {
+            "type": "datetimeOptional",
+            "view": "crm:views/meeting/fields/date-start",
+            "required": true,
+            "default": "javascript: return this.dateTime.getNow(15);",
+            "audited": true
+        },
+        "dateEnd": {
+            "type": "datetimeOptional",
+            "view": "crm:views/meeting/fields/date-end",
+            "required": true,
+            "after": "dateStart",
+            "suppressValidationList": [
+                "required"
+            ]
+        },
+        "isAllDay": {
+            "type": "bool",
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true
+        },
+        "duration": {
+            "type": "duration",
+            "start": "dateStart",
+            "end": "dateEnd",
+            "options": [
+                300,
+                600,
+                900,
+                1800,
+                2700,
+                3600,
+                7200,
+                10800
+            ],
+            "default": 300,
+            "notStorable": true,
+            "select": {
+                "select": "TIMESTAMPDIFF_SECOND:(dateStart, dateEnd)"
+            },
+            "order": {
+                "order": [
+                    [
+                        "TIMESTAMPDIFF_SECOND:(dateStart, dateEnd)",
+                        "{direction}"
+                    ]
+                ]
+            }
+        },
+        "parent": {
+            "type": "linkParent",
+            "entityList": [
+                "Account",
+                "Lead",
+                "Contact"
+            ]
+        },
+        "description": {
+            "type": "text"
+        },
+        "reminders": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "orderDisabled": true,
+            "view": "crm:views/meeting/fields/reminders",
+            "layoutListDisabled": true,
+            "validatorClassNameList": [
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Event\\Reminders\\Valid",
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Event\\Reminders\\MaxCount"
+            ],
+            "dynamicLogicDisabled": true,
+            "duplicateIgnore": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "hearingType": {
+            "type": "enum",
+            "options": [
+                "Conciliación",
+                "Mediación",
+                "Preliminar",
+                "Testimonial",
+                "Indagatoria",
+                "Debate",
+                "Vista de causa",
+                "Art. 360",
+                "Otra"
+            ],
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "modality": {
+            "type": "enum",
+            "options": [
+                "Presencial",
+                "Virtual",
+                "Híbrida"
+            ],
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "court": {
+            "type": "varchar",
+            "maxLength": 190,
+            "isCustom": true
+        },
+        "addressText": {
+            "type": "varchar",
+            "maxLength": 255,
+            "isCustom": true
+        },
+        "meetingUrl": {
+            "type": "varchar",
+            "maxLength": 255,
+            "isCustom": true
+        },
+        "participants": {
+            "type": "text",
+            "isCustom": true
+        },
+        "documentsRequired": {
+            "type": "text",
+            "isCustom": true
+        },
+        "matter": {
+            "type": "link"
+        },
+        "docket": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "cAudienciaChildren"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "matter": {
+            "type": "belongsTo",
+            "foreign": "hearings",
+            "entity": "CAsunto",
+            "audited": true,
+            "isCustom": true
+        },
+        "docket": {
+            "type": "belongsTo",
+            "foreign": "hearings",
+            "entity": "CExpediente",
+            "audited": true,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc"
+    },
+    "indexes": {
+        "dateStartStatus": {
+            "columns": [
+                "dateStart",
+                "status"
+            ]
+        },
+        "dateStart": {
+            "columns": [
+                "dateStart",
+                "deleted"
+            ]
+        },
+        "status": {
+            "columns": [
+                "status",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        },
+        "assignedUserStatus": {
+            "columns": [
+                "assignedUserId",
+                "status"
+            ]
+        },
+        "createdAt": {
+            "columns": [
+                "createdAt"
+            ]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": [
+                "createdAt",
+                "id"
+            ]
+        }
+    }
+}

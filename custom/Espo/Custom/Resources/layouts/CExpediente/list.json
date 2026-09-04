@@ -1,0 +1,24 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "docketNumber"
+    },
+    {
+        "name": "matter"
+    },
+    {
+        "name": "court"
+    },
+    {
+        "name": "proceduralStatus"
+    },
+    {
+        "name": "nextDocketDate"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CCliente": "Créer un Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

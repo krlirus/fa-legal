@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "建立Actuación"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

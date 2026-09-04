@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Ročišta",
+        "calls": "Pozivi",
+        "tasks": "Zadaci"
+    },
+    "labels": {
+        "Create CExpediente": "Napravi Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

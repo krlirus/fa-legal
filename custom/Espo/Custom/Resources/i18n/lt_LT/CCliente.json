@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Susitikimai",
+        "calls": "Skambučiai",
+        "tasks": "Užduotys"
+    },
+    "labels": {
+        "Create CCliente": "Sukurti Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

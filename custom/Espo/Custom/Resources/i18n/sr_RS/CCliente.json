@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Ročišta",
+        "calls": "Pozivi",
+        "tasks": "Zadaci"
+    },
+    "labels": {
+        "Create CCliente": "Napravi Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

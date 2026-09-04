@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Зустрічі",
+        "calls": "Дзвінки",
+        "tasks": "Завдання"
+    },
+    "labels": {
+        "Create CExpediente": "Створити Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

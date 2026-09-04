@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "dateStart": "Ngày bắt đầu",
+        "dateEnd": "Ngày kết thúc",
+        "status": "Tình trạng",
+        "reminders": "Nhắc nhở",
+        "description": "Observaciones"
+    },
+    "presetFilters": {
+        "planned": "Đã lên kế hoạch",
+        "todays": "Hôm nay"
+    }
+}

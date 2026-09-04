@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CHonorario": "Skapa Honorario"
+    },
+    "fields": {
+        "description": "Observaciones"
+    }
+}

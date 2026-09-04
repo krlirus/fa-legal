@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Spotkania",
+        "calls": "Połączenia",
+        "tasks": "Zadania"
+    },
+    "labels": {
+        "Create CExpediente": "Utwórz Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

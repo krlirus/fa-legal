@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "találkozók",
+        "calls": "felhívja",
+        "tasks": "Feladatok"
+    },
+    "labels": {
+        "Create CAsunto": "{EntityTypeTranslated} létrehozása"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

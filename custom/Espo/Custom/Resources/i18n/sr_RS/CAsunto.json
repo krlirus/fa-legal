@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Ročišta",
+        "calls": "Pozivi",
+        "tasks": "Zadaci"
+    },
+    "labels": {
+        "Create CAsunto": "Napravi Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

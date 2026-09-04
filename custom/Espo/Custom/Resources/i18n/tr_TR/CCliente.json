@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Toplantılar",
+        "calls": "(Seslenme)",
+        "tasks": "Görevler"
+    },
+    "labels": {
+        "Create CCliente": "Cliente oluştur"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

@@ -1,0 +1,84 @@
+[
+    {
+        "label": "Identificación",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "internalCode"
+                }
+            ],
+            [
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "matterStatus"
+                }
+            ],
+            [
+                {
+                    "name": "practiceArea"
+                },
+                {
+                    "name": "priority"
+                }
+            ],
+            [
+                {
+                    "name": "openingDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "counterparty"
+                },
+                {
+                    "name": "feeStatus"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Gestión y estrategia",
+        "rows": [
+            [
+                {
+                    "name": "nextActionDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "strategy",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "nextAction",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "driveFolderUrl",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

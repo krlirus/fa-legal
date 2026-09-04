@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Møter",
+        "calls": "Samtaler",
+        "tasks": "Oppgaver"
+    },
+    "labels": {
+        "Create CAsunto": "Opprett Asunto"
+    },
+    "fields": {
+        "description": "Notas internas"
+    }
+}

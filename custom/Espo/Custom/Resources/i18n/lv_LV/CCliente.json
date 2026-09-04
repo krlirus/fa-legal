@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Tikšanās",
+        "calls": "Zvani",
+        "tasks": "Uzdevumi"
+    },
+    "labels": {
+        "Create CCliente": "Izveidot Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}

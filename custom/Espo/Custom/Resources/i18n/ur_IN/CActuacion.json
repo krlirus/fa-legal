@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CActuacion": "{entityTypetranslated} بنائیں"
+    },
+    "fields": {
+        "description": "Detalle / Observaciones"
+    }
+}

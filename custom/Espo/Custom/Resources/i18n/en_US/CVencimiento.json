@@ -1,0 +1,46 @@
+{
+    "fields": {
+        "parent": "Parent",
+        "dateStart": "Date Start",
+        "dateEnd": "Date End",
+        "duration": "Duration",
+        "status": "Status",
+        "reminders": "Reminders",
+        "dateStartDate": "Date Start (all day)",
+        "dateEndDate": "Date End (all day)",
+        "isAllDay": "Is All-Day",
+        "deadlineType": "Tipo de vencimiento",
+        "priority": "Prioridad",
+        "matter": "Asunto",
+        "docket": "Expediente",
+        "description": "Observaciones"
+    },
+    "links": {
+        "parent": "Parent",
+        "matter": "Asunto",
+        "docket": "Expediente"
+    },
+    "options": {
+        "status": {
+            "Planned": "Planned",
+            "Held": "Held",
+            "Not Held": "Not Held"
+        }
+    },
+    "labels": {
+        "Create CVencimiento": "Create Vencimiento",
+        "Schedule CVencimiento": "Schedule Vencimiento",
+        "Log CVencimiento": "Log Vencimiento",
+        "Set Held": "Set Held",
+        "Set Not Held": "Set Not Held"
+    },
+    "massActions": {
+        "setHeld": "Set Held",
+        "setNotHeld": "Set Not Held"
+    },
+    "presetFilters": {
+        "planned": "Planned",
+        "held": "Held",
+        "todays": "Today's"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CHonorario": "Opprett Honorario"
+    },
+    "fields": {
+        "description": "Observaciones"
+    }
+}

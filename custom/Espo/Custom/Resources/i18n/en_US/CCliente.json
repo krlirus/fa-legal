@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "clientType": "Tipo de cliente",
+        "dni": "DNI",
+        "taxId": "CUIT / CUIL",
+        "birthDate": "Fecha de nacimiento",
+        "phoneNumberText": "Teléfono",
+        "whatsapp": "WhatsApp",
+        "emailAddressText": "Email",
+        "addressText": "Domicilio",
+        "clientStatus": "Estado del cliente",
+        "intakeDate": "Fecha de alta",
+        "referredBy": "Referido por",
+        "driveFolderUrl": "Carpeta de Google Drive",
+        "matters": "Asuntos",
+        "fees": "Honorarios",
+        "description": "Notas del cliente"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "matters": "Asuntos",
+        "fees": "Honorarios"
+    },
+    "labels": {
+        "Create CCliente": "Create Cliente"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Συναντήσεις",
+        "calls": "Κλήσεις",
+        "tasks": "Εργασίες"
+    },
+    "labels": {
+        "Create CExpediente": "Δημιουργία Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

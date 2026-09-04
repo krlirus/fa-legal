@@ -1,0 +1,12 @@
+{
+    "links": {
+        "calls": "Anrufe",
+        "tasks": "Aufgaben"
+    },
+    "labels": {
+        "Create CExpediente": "Expediente erstellen"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

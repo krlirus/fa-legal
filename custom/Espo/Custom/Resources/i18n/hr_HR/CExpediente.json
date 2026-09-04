@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Sastanci",
+        "calls": "Pozivi",
+        "tasks": "Zadaci"
+    },
+    "labels": {
+        "Create CExpediente": "Kreiraj Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

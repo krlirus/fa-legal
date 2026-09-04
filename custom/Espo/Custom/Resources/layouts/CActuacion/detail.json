@@ -1,0 +1,45 @@
+[
+    {
+        "label": "Actuación",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "docket"
+                }
+            ],
+            [
+                {
+                    "name": "actionDate"
+                },
+                {
+                    "name": "actionType"
+                }
+            ],
+            [
+                {
+                    "name": "generatedDeadline"
+                },
+                {
+                    "name": "nextActionDate"
+                }
+            ],
+            [
+                {
+                    "name": "nextAction",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

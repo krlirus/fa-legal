@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "الاجتماعات",
+        "calls": "المكالمات",
+        "tasks": "مهام"
+    },
+    "labels": {
+        "Create CExpediente": "إنشاء {الكيانTypeTranslated}"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

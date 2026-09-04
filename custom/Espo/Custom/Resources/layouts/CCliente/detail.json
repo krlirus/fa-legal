@@ -1,0 +1,74 @@
+[
+    {
+        "label": "Datos del cliente",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "clientType"
+                }
+            ],
+            [
+                {
+                    "name": "dni"
+                },
+                {
+                    "name": "taxId"
+                }
+            ],
+            [
+                {
+                    "name": "clientStatus"
+                },
+                {
+                    "name": "intakeDate"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumberText"
+                },
+                {
+                    "name": "whatsapp"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddressText"
+                },
+                {
+                    "name": "birthDate"
+                }
+            ],
+            [
+                {
+                    "name": "referredBy"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "addressText",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "driveFolderUrl",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    }
+]

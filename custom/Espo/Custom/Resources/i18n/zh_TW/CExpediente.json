@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "會議",
+        "calls": "通話",
+        "tasks": "任務"
+    },
+    "labels": {
+        "Create CExpediente": "建立Expediente"
+    },
+    "fields": {
+        "description": "Observaciones del expediente"
+    }
+}

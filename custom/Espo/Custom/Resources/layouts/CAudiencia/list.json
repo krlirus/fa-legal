@@ -1,0 +1,24 @@
+[
+    {
+        "name": "dateStart"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "hearingType"
+    },
+    {
+        "name": "matter"
+    },
+    {
+        "name": "docket"
+    },
+    {
+        "name": "modality"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

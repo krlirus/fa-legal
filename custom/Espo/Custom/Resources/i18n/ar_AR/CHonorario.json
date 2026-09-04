@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create CHonorario": "إنشاء {الكيانTypeTranslated}"
+    },
+    "fields": {
+        "description": "Observaciones"
+    }
+}

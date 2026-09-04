@@ -1,0 +1,13 @@
+{
+    "links": {
+        "meetings": "Cuộc hẹn",
+        "calls": "Cuộc gọi",
+        "tasks": "Nhiệm vụ"
+    },
+    "labels": {
+        "Create CCliente": "Tạo Cliente"
+    },
+    "fields": {
+        "description": "Notas del cliente"
+    }
+}
