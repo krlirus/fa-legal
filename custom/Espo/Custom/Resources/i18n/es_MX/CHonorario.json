@@ -19,5 +19,8 @@
     "links": {
         "matter": "Asunto",
         "client": "Cliente"
+    },
+    "presetFilters": {
+        "pendingFees": "Pendientes de cobro"
     }
 }

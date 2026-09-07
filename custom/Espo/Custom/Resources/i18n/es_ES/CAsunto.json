@@ -9,5 +9,9 @@
     },
     "fields": {
         "description": "Notas internas"
+    },
+    "panelCustomLabels": {
+        "faOperationalManagement": "Gestión operativa",
+        "faLegalStrategy": "Estrategia Jurídica"
     }
 }

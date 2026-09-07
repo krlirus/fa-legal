@@ -19,7 +19,7 @@
         "matterStatus": "Estado",
         "priority": "Prioridad",
         "openingDate": "Fecha de apertura",
-        "strategy": "Estrategia",
+        "strategy": "Estrategia general",
         "nextAction": "Próxima acción",
         "nextActionDate": "Fecha próxima acción",
         "counterparty": "Contraparte",
@@ -30,6 +30,22 @@
         "deadlines": "Vencimientos",
         "hearings": "Audiencias",
         "fees": "Honorarios",
-        "description": "Notas internas"
+        "description": "Notas operativas internas",
+        "strategyStatus": "Estado de la estrategia",
+        "legalObjective": "Objetivo jurídico",
+        "strengths": "Fortalezas",
+        "weaknesses": "Debilidades",
+        "risks": "Riesgos",
+        "proceduralLine": "Línea procesal / próximos pasos",
+        "legalNotes": "Notas jurídicas internas",
+        "strategyReviewDate": "Última revisión de estrategia",
+        "strategyOwner": "Responsable de estrategia"
+    },
+    "presetFilters": {
+        "activeLegal": "Activos"
+    },
+    "panelCustomLabels": {
+        "faOperationalManagement": "Gestión operativa",
+        "faLegalStrategy": "Estrategia Jurídica"
     }
 }

@@ -1,0 +1,5 @@
+{
+    "primaryFilterClassNameMap": {
+        "activeLegal": "Espo\\Custom\\Classes\\Select\\CAsunto\\PrimaryFilters\\ActiveLegal"
+    }
+}

@@ -9,5 +9,8 @@
     },
     "fields": {
         "description": "Observaciones del expediente"
+    },
+    "presetFilters": {
+        "stale30": "Sin movimiento +30 días"
     }
 }

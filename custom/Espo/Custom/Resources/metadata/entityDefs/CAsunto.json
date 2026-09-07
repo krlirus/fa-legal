@@ -105,7 +105,8 @@
         },
         "strategy": {
             "type": "text",
-            "isCustom": true
+            "isCustom": true,
+            "audited": true
         },
         "nextAction": {
             "type": "text",
@@ -141,6 +142,61 @@
         },
         "client": {
             "type": "link"
+        },
+        "strategyStatus": {
+            "type": "enum",
+            "options": [
+                "Sin definir",
+                "En análisis",
+                "Definida",
+                "En ejecución",
+                "A revisar",
+                "Cerrada"
+            ],
+            "maxLength": 100,
+            "audited": true,
+            "isCustom": true
+        },
+        "legalObjective": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "strengths": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "weaknesses": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "risks": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "proceduralLine": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "legalNotes": {
+            "type": "text",
+            "audited": true,
+            "isCustom": true
+        },
+        "strategyReviewDate": {
+            "type": "date",
+            "notNull": false,
+            "audited": true,
+            "isCustom": true
+        },
+        "strategyOwner": {
+            "type": "link",
+            "audited": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -217,11 +273,22 @@
             "entity": "CHonorario",
             "audited": true,
             "isCustom": true
+        },
+        "strategyOwner": {
+            "type": "belongsTo",
+            "entity": "User",
+            "audited": true,
+            "isCustom": true
         }
     },
     "collection": {
         "orderBy": "createdAt",
-        "order": "desc"
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
     },
     "indexes": {
         "name": {
@@ -248,5 +315,7 @@
                 "id"
             ]
         }
-    }
+    },
+    "optimisticConcurrencyControl": false,
+    "transactionalSave": false
 }

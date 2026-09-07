@@ -35,6 +35,11 @@
     "presetFilters": {
         "planned": "مخطط",
         "held": "محتجز",
-        "todays": "اليوم"
+        "todays": "اليوم",
+        "overdueLegal": "Vencidos",
+        "critical48": "Críticos - 48 h",
+        "upcoming7": "Próximos - 7 días",
+        "normalLegal": "Normales - más de 7 días",
+        "completedLegal": "Cumplidos"
     }
 }

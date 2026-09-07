@@ -9,5 +9,8 @@
     },
     "fields": {
         "description": "Notas internas"
+    },
+    "presetFilters": {
+        "activeLegal": "Activos"
     }
 }

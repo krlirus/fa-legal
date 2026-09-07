@@ -4,5 +4,8 @@
     },
     "fields": {
         "description": "Observaciones"
+    },
+    "presetFilters": {
+        "pendingFees": "Pendientes de cobro"
     }
 }

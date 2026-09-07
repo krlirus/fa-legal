@@ -11,6 +11,11 @@
     "primaryFilterClassNameMap": {
         "planned": "Espo\\Classes\\Select\\Event\\PrimaryFilters\\Planned",
         "held": "Espo\\Classes\\Select\\Event\\PrimaryFilters\\Held",
-        "todays": "Espo\\Classes\\Select\\Event\\PrimaryFilters\\Todays"
+        "todays": "Espo\\Classes\\Select\\Event\\PrimaryFilters\\Todays",
+        "overdueLegal": "Espo\\Custom\\Classes\\Select\\CVencimiento\\PrimaryFilters\\OverdueLegal",
+        "critical48": "Espo\\Custom\\Classes\\Select\\CVencimiento\\PrimaryFilters\\Critical48",
+        "upcoming7": "Espo\\Custom\\Classes\\Select\\CVencimiento\\PrimaryFilters\\Upcoming7",
+        "normalLegal": "Espo\\Custom\\Classes\\Select\\CVencimiento\\PrimaryFilters\\NormalLegal",
+        "completedLegal": "Espo\\Custom\\Classes\\Select\\CVencimiento\\PrimaryFilters\\CompletedLegal"
     }
 }

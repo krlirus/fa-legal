@@ -74,6 +74,13 @@
                     "fullWidth": true
                 },
                 false
+            ],
+            [
+                {
+                    "name": "reminders",
+                    "fullWidth": true
+                },
+                false
             ]
         ]
     }

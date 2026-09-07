@@ -43,18 +43,11 @@
         ]
     },
     {
-        "label": "Gestión y estrategia",
+        "customLabel": "faOperationalManagement",
         "rows": [
             [
                 {
                     "name": "nextActionDate"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "strategy",
-                    "fullWidth": true
                 },
                 false
             ],
@@ -75,6 +68,74 @@
             [
                 {
                     "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "customLabel": "faLegalStrategy",
+        "rows": [
+            [
+                {
+                    "name": "strategyStatus"
+                },
+                {
+                    "name": "strategyReviewDate"
+                }
+            ],
+            [
+                {
+                    "name": "strategyOwner"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "legalObjective",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "strategy",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "strengths",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "weaknesses",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "risks",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "proceduralLine",
+                    "fullWidth": true
+                },
+                false
+            ],
+            [
+                {
+                    "name": "legalNotes",
                     "fullWidth": true
                 },
                 false

@@ -1,0 +1,5 @@
+{
+    "primaryFilterClassNameMap": {
+        "stale30": "Espo\\Custom\\Classes\\Select\\CExpediente\\PrimaryFilters\\Stale30"
+    }
+}
